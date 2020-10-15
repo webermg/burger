@@ -1,0 +1,117 @@
+body {
+  background-color: orange;
+}
+
+img {
+  width: 35%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+h1,h2 {
+  text-align: center;
+}
+
+.flexarea {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.burgerdiv,.eaten-burger {
+  display: inline-block;
+  width: 150px;
+  padding: 20px;
+  margin: 10px;
+  border: solid black 1px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.burgerdiv {
+  background-color: gold;
+}
+
+.change-devoured, .delete-burger {
+  height: 80%;
+  margin: 10px;
+  border: solid black 1px;
+  border-radius: 5px;
+  /* box-shadow: 0 9px #666; */
+  outline: none;
+}
+
+.change-devoured {
+  padding: 15px;
+  background-color: #00B;
+  color: white;
+}
+
+.change-devoured:hover {
+  background-color: #00F;
+}
+
+.change-devoured:active,.delete-burger:active {
+  /* box-shadow: 0 5px #666; */
+  transform: translateY(4px);
+}
+
+.delete-burger {
+  padding: 10px 15px;
+}
+
+.delete-burger:hover {
+  background-color: #CCC;
+}
+
+.eaten-burger {
+  background-color: #DDD;
+  color: #AAA;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.burger-input {
+  width: 100%;
+  height: 30px;
+  border-radius: 7px;
+}
+
+.form-area {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.add-button {
+  padding: 5px 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
