@@ -17,7 +17,7 @@ else {
 
     // Your password
     password: "password",
-    database: "employee_db"
+    database: "burgers_db"
   })
 }
 
